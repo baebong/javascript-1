@@ -1,0 +1,46 @@
+#contents {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#contents img {
+    width: 160px;
+    height: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+ul {
+    /* list의 스타일 변경, none이기 때문에 아무 스타일 주지 않겠다는 의미 */
+    list-style: none;
+    padding-top: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li label {
+    /* li태그 안의 label태그 */
+    width: 80px;
+    float: left;
+    text-align: right;
+}
+
+input[type="text"] {
+    /* type이 "text"인 input태그 */
+    width: 110px;
+    padding: 5px 10px;
+    margin: 0 5px 0 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+#showResult {
+    margin-top: 20px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>연산자</title>
+    </head>
+
+    <body>
+        <script>
+            let num = 10;
+
+            alert(num++); // 후위 증감연산자 : ';'이 끝난 수 증가가 됨. 결과값은 10이지만 실질적으로는 11이다.
+            alert(++num); // 전위 증감연산자 : ';'이 끝나기 전에 이미 증가가 완료된 상태. 결과값은 위 코드를 적용하면 12, 아니라면 11이 출력됨.
+            alert(num++);
+
+            document.write(num); // 위의 세코드를 모두 실행 하였을 때 최종값 : 13
+        </script>
+    </body>
+
+</html>
