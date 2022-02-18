@@ -1,0 +1,19 @@
+.hello {
+    position: relative;
+    background-image: url("../images/gigu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+}
+
+.hello .text {
+    bottom: 0;
+    color: brown;
+    font-family: Verdana !important;
+    /* !important : 우선 실행하라는 뜻 */
+    font-size: 40pt !important;
+    font-weight: bold;
+    position: absolute;
+    text-shadow: 0 0 5px #000;
+}
